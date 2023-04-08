@@ -86,6 +86,10 @@ const styles = StyleSheet.create({
     marginTop:50,
     alignItems:'center'
   },
+  eye: {
+    position:'absolute',
+    right:0,
+  },
   socialNetworkImage: {
     flexDirection:'row',
     marginTop:5

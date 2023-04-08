@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.grey08,
     paddingHorizontal: 43,
     borderRadius: SIZES.radius,
-    marginBottom:10
+    marginBottom:10,
   },
   boxTextInput: {
     marginVertical:20
@@ -77,10 +77,22 @@ const styles = StyleSheet.create({
     color:COLORS.grey,
     marginRight:8
   },
+  containers: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingTop: 10,
+    backgroundColor: '#ecf0f1',
+    padding: 8,
+  },
   newAccountText: {
     fontWeight:'900',
     fontSize:13,
     color:COLORS.secondary
+  },
+  eye: {
+    position:'absolute',
+    right:0,
   },
   checkboxLine: {
     flexDirection:'row'
