@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
   },
   box: {
     width: SIZES.width - 40,
-    height: 360,
+    height: 475,
     backgroundColor: 'white',
     borderRadius: 8,
     shadowColor: '#000',
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     marginBottom:10
   },
   boxTextInput: {
-    marginVertical:50
+    marginVertical:20
   },
   Icon: {
     height:25,
@@ -56,12 +56,12 @@ const styles = StyleSheet.create({
     left: 10
   },
   forgotButton: {
-    alignItems:'flex-end'
+    alignSelf:'center'
   },
-  forgotText: {
-    color: COLORS.secondary,
-    fontSize:14,
-    fontWeight:'900'
+  termAndConditionText: {
+    color: COLORS.dark80,
+    width:'60%',
+    fontSize:12,
   },
   bottomText: {
     flexDirection:'row',
@@ -81,6 +81,9 @@ const styles = StyleSheet.create({
     fontWeight:'900',
     fontSize:13,
     color:COLORS.secondary
+  },
+  checkboxLine: {
+    flexDirection:'row'
   },
   bottomBar: {
     marginTop:50,
