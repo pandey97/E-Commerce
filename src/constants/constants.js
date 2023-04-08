@@ -87,6 +87,14 @@ const constantText = {
   Margaret: 'Margaret',
   GetStarted: 'Get Started',
   AlreadyAccount: 'Already have an account',
+  signInToContinue: 'Sign in to continue.',
+  email:'Email',
+  password: 'Password',
+  forgotpassword: 'Forgot Password?',
+  login: 'Log In',
+  dontHaveAccount: "Don't have an account?",
+  newAccount: 'Create New Account',
+  loginWith: 'OR login with'
 };
 
 export default {
