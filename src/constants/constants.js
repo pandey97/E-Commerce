@@ -102,7 +102,10 @@ const constantText = {
   dontHaveAccount: "Don't have an account?",
   alreadyHaveAccount: 'I already have an account',
   newAccount: 'Create New Account',
-  loginWith: 'OR login with'
+  loginWith: 'OR login with',
+  forgotPassword: 'Forgot Password',
+  continuePhoneno: 'Continue using phone number.',
+  sendCode: 'Send Verification Code'
 };
 
 export default {

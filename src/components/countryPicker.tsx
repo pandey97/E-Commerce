@@ -6,10 +6,12 @@ interface props {
     withCallingCodeButton?: boolean
     withCallingCode?: boolean
     onSelect?: any;
+    countryCode?: any;
 }
 const CountryPickers: React.FC<props> = (props) => {
   return (
     <CountryPicker
+      countryCode={props.countryCode}
       withFlag={props.withFlag}
       withCallingCodeButton={props.withCallingCodeButton}
       withCallingCode={props.withCallingCode}

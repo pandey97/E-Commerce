@@ -59,7 +59,7 @@ const SignIn: React.FC<props> = ({navigation}) => {
                 </TouchableOpacity>
               )}
             </View>
-            <TouchableOpacity style={styles.forgotButton}>
+            <TouchableOpacity style={styles.forgotButton} onPress={() => navigation.navigate('ForgotPassword')}>
               <Text style={styles.forgotText}>
                 {constants.constantText.forgotpassword}
               </Text>
