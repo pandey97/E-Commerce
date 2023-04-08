@@ -87,6 +87,8 @@ const constantText = {
   Margaret: 'Margaret',
   GetStarted: 'Get Started',
   AlreadyAccount: 'Already have an account',
+  joinnow: 'Join Now',
+  login: 'Log In'
 };
 
 export default {
