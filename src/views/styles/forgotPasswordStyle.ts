@@ -53,9 +53,6 @@ const styles = StyleSheet.create({
   },
   textInputContainer: {
     marginTop: 50
-  },
-  lowerContainer: {
-    
   }
 });
 

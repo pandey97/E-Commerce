@@ -105,7 +105,9 @@ const constantText = {
   loginWith: 'OR login with',
   forgotPassword: 'Forgot Password',
   continuePhoneno: 'Continue using phone number.',
-  sendCode: 'Send Verification Code'
+  OTPsent: 'Enter OTP sent to your phone.',
+  sendCode: 'Send Verification Code',
+  resend: 'Resend Code',
 };
 
 export default {

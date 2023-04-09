@@ -5,6 +5,7 @@ import WelcomeScreen from './src/views/screens/welcomeScreen';
 import SignUp from './src/views/screens/signUpScreen';
 import SignIn from './src/views/screens/signInScreen';
 import ForgotPassword from './src/views/screens/forgotPassword';
+import Verification from './src/views/screens/verificationScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -18,6 +19,7 @@ const App = () => {
         <Stack.Screen name="SignInScreen" component={SignIn} />
         <Stack.Screen name="SignUpScreen" component={SignUp} />
         <Stack.Screen name="ForgotPassword" component={ForgotPassword} />
+        <Stack.Screen name="Verification" component={Verification} />
       </Stack.Navigator>
     </NavigationContainer>
   );
