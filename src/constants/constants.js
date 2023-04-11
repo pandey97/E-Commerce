@@ -108,6 +108,27 @@ const constantText = {
   OTPsent: 'Enter OTP sent to your phone.',
   sendCode: 'Send Verification Code',
   resend: 'Resend Code',
+  home: 'Home',
+  searchProduct: 'Search Product',
+  product: 'Product',
+  mychart: 'My Chart',
+  service: 'Service',
+  samePrice: 'Same Price of $100',
+  miniacShop: 'Shoe in Miniac Shop',
+  may: 'May',
+  date: '09',
+  event: 'Event',
+  transport: 'Transport',
+  live: 'Live',
+  coin: 'Coin',
+  flashsale: 'Flash Sale',
+  search: 'Search',
+  premium: 'Premium',
+  card: 'Card',
+  saleTimeProduct: 'Sale time product',
+  youMayLike: 'You may like',
+  seemore: 'See more >',
+  promotionItems: 'Promotion Items'
 };
 
 export default {

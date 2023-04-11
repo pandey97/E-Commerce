@@ -29,6 +29,7 @@ const flashDeals = [
     sold_qty: '4k',
     total_qty: '5k',
     percentage: '80%',
+    text: 'products sold'
   },
   {
     id: 3,
@@ -36,6 +37,7 @@ const flashDeals = [
     sold_qty: '546',
     total_qty: '5k',
     percentage: '11%',
+    text: 'products sold'
   },
 ];
 
@@ -49,7 +51,7 @@ const promoItems = [
     id: 2,
     image: require('../assets/images/dummy/product_03.png'),
     name: 'Wireless Controller PS4™',
-    price: 278.0,
+    price: 278.00,
     discount: '-54%',
   },
   {
@@ -65,7 +67,7 @@ const categories = [
   {
     id: 1,
     name: 'Bed',
-    qty: '1.2k',
+    qty: '1.2k Product',
     image_1: require('../assets/images/dummy/bed_01.png'),
     image_2: require('../assets/images/dummy/bed_02.png'),
     image_3: require('../assets/images/dummy/bed_03.png'),
@@ -74,7 +76,7 @@ const categories = [
   {
     id: 2,
     name: 'Bathtub',
-    qty: '1.2k',
+    qty: '1.2k Product',
     image_1: require('../assets/images/dummy/bathtub_01.png'),
     image_2: require('../assets/images/dummy/bathtub_02.png'),
     image_3: require('../assets/images/dummy/bathtub_03.png'),
@@ -83,7 +85,7 @@ const categories = [
   {
     id: 2,
     name: 'Chair',
-    qty: '1.2k',
+    qty: '1.2k Product',
     image_1: require('../assets/images/dummy/chair_01.png'),
     image_2: require('../assets/images/dummy/chair_02.png'),
     image_3: require('../assets/images/dummy/chair_03.png'),
@@ -92,7 +94,7 @@ const categories = [
   {
     id: 3,
     name: 'Wardrobe',
-    qty: '1.2k',
+    qty: '1.2k Product',
     image_1: require('../assets/images/dummy/wardrobe_01.png'),
     image_2: require('../assets/images/dummy/wardrobe_02.png'),
     image_3: require('../assets/images/dummy/wardrobe_03.png'),

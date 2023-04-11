@@ -5,7 +5,6 @@ import {COLORS, constants, icons} from '../../constants';
 
 interface props {
   navigation: any;
-  focus: any
 }
 
 const Verification: React.FC<props> = ({navigation}) => {
