@@ -128,7 +128,9 @@ const constantText = {
   saleTimeProduct: 'Sale time product',
   youMayLike: 'You may like',
   seemore: 'See more >',
-  promotionItems: 'Promotion Items'
+  promotionItems: 'Promotion Items',
+  general: 'General',
+  collection: 'Collection'
 };
 
 export default {
