@@ -3,12 +3,16 @@ import {Image, ScrollView, Text, TextInput, TouchableOpacity, View} from 'react-
 import styles from '../styles/searchScreenStyle';
 import {constants, dummyData, icons} from '../../constants';
 
-const SearchScreen = () => {
+interface prop {
+    navigation: any
+}
+
+const SearchScreen:React.FC<prop> = ({navigation}) => {
   return (
     <View style={styles.container}>
       <View style={styles.headerContainer}>
         <View style={styles.headerLeft}>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.goBack()}>
             <Image source={icons.arrow_left} style={styles.logo} />
           </TouchableOpacity>
           <Text style={styles.headerText}>{constants.constantText.search}</Text>
