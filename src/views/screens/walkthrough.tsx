@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {View, Dimensions, FlatList, Text, TouchableOpacity} from 'react-native';
 import styles from '../styles/walkthroughStyle';
 import {COLORS, SIZES, constants} from '../../constants';
+import Walkthrough1 from './walkthrough1';
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
@@ -20,7 +21,9 @@ const Walkthrough: React.FC<navigation> = ({navigation}) => {
 
   return (
     <View style={styles.container}>
-      <View style={styles.upperContainer}></View>
+      <View style={styles.upperContainer}>
+        <Walkthrough1 />
+      </View>
       <View style={styles.lowerContainer}>
         <FlatList
           data={constants.walkthrough}
