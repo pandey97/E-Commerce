@@ -9,6 +9,7 @@ import Verification from './src/views/screens/verificationScreen';
 import MyTab from './src/views/screens/tabRouter';
 import Orientation from 'react-native-orientation-locker';
 import SearchScreen from './src/views/screens/searchScreen';
+import WalkThrough from './src/views/screens/walkthrough';
 
 const Stack = createNativeStackNavigator();
 
@@ -33,6 +34,7 @@ const App = () => {
         <Stack.Screen name="Verification" component={Verification} />
         <Stack.Screen name="HomeScreen" component={MyTab} />
         <Stack.Screen name="SearchScreen" component={SearchScreen} />
+        <Stack.Screen name="WalkthroughScreen" component={WalkThrough} />
       </Stack.Navigator>
     </NavigationContainer>
   );

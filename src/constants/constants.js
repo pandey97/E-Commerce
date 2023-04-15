@@ -165,6 +165,8 @@ const constantText = {
   topKey: 'Top Key Search',
   suggested: 'Suggested to you',
   category:'Category'
+  joinnow: 'Join Now',
+  login: 'Log In'
 };
 
 export default {
