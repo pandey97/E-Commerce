@@ -146,7 +146,8 @@ const styles = StyleSheet.create({
   },
   logoText:{
     alignSelf:'center',
-    fontWeight:'600'
+    fontWeight:'600',
+    color:COLORS.dark60
   },
   icon: {
     height:25,
