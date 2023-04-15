@@ -54,7 +54,7 @@ const home_tabs = [
 const dashboard_screens = {
   home: 'Home',
   category: 'Category',
-  promo: 'Promo',
+  setting: 'Setting',
   profile: 'Profile',
 };
 
@@ -69,7 +69,7 @@ const bottom_tabs = [
   },
   {
     id: 2,
-    label: dashboard_screens.promo,
+    label: dashboard_screens.setting,
   },
   {
     id: 3,
@@ -130,7 +130,36 @@ const constantText = {
   seemore: 'See more >',
   promotionItems: 'Promotion Items',
   general: 'General',
-  collection: 'Collection'
+  collection: 'Collection',
+  men: 'Men',
+  women: 'Women',
+  technology: 'Technology',
+  onetwok: '1.2k',
+  profile: 'Profile',
+  sudhanshu: 'BySudhanshu',
+  follower: '30k followers',
+  personalInfo: 'Personal info',
+  sellerAccount: 'Seller Account',
+  onethousand: '1000',
+  coin: 'Coin(s)',
+  gold: 'Gold',
+  networkConnection: 'Social Network Connection',
+  promotionCode: 'Promotion Code',
+  bonusGift: 'Bonus Gift',
+  orderManagement: 'Order Management',
+  widget: 'Your Widget',
+  reviewPurchasedProduct: 'Reviews of purchased products',
+  recentlyViewedProduct: 'Recently viewed product',
+  favourite: 'Favourite',
+  billingInformation: 'Billing information',
+  setting: 'Setting',
+  notification: 'Notification',
+  askBeforeBuy: 'Ask before buy',
+  colorBlind: 'Color blind mode',
+  setupWidth: 'Setup Width',
+  personalCommunication: 'Personal Communication',
+  subLnguage: 'Sub Language',
+  sound: 'Sound'
 };
 
 export default {

@@ -469,62 +469,86 @@ const Home = () => {
       ) : activeHeader === 3 ? (
         <View style={styles.serviceContainer}>
           <ScrollView showsVerticalScrollIndicator={false}>
-          <View style={styles.serviceBox}>
-            <View style={styles.serviceBoxItem}>
-              <View style={styles.contentText}>
-                <View>
-                <Text style={styles.headerText}>{dummyData.services[0].title}</Text>
-                <Text style={styles.contentItemText}>{dummyData.services[0].description}</Text>
+            <View style={styles.serviceBox}>
+              <View style={styles.serviceBoxItem}>
+                <View style={styles.contentText}>
+                  <View>
+                    <Text style={styles.headerText}>
+                      {dummyData.services[0].title}
+                    </Text>
+                    <Text style={styles.contentItemText}>
+                      {dummyData.services[0].description}
+                    </Text>
+                  </View>
+                  <Text style={styles.onlyPrice}>
+                    {dummyData.services[0].price}
+                  </Text>
                 </View>
-                <Text style={styles.onlyPrice}>{dummyData.services[0].price}</Text>
-              </View>
-              <View style={styles.serviceContainerImage}>
-                <Image source={dummyData.services[0].image}/>
+                <View style={styles.serviceContainerImage}>
+                  <Image source={dummyData.services[0].image} />
+                </View>
               </View>
             </View>
-          </View>
-          <View style={styles.serviceBox}>
-            <View style={styles.serviceBoxItem}>
-              <View style={styles.contentText}>
-                <View>
-                <Text style={styles.headerText}>{dummyData.services[1].title}</Text>
-                <Text style={styles.contentItemText}>{dummyData.services[1].description}</Text>
+            <View style={styles.serviceBox}>
+              <View style={styles.serviceBoxItem}>
+                <View style={styles.contentText}>
+                  <View>
+                    <Text style={styles.headerText}>
+                      {dummyData.services[1].title}
+                    </Text>
+                    <Text style={styles.contentItemText}>
+                      {dummyData.services[1].description}
+                    </Text>
+                  </View>
+                  <Text style={styles.onlyPrice}>
+                    {dummyData.services[1].price}
+                  </Text>
                 </View>
-                <Text style={styles.onlyPrice}>{dummyData.services[1].price}</Text>
-              </View>
-              <View style={styles.serviceContainerImage}>
-                <Image source={dummyData.services[1].image}/>
+                <View style={styles.serviceContainerImage}>
+                  <Image source={dummyData.services[1].image} />
+                </View>
               </View>
             </View>
-          </View>
-          <View style={styles.serviceBox}>
-            <View style={styles.serviceBoxItem}>
-              <View style={styles.contentText}>
-                <View>
-                <Text style={styles.headerText}>{dummyData.services[2].title}</Text>
-                <Text style={styles.contentItemText}>{dummyData.services[2].description}</Text>
+            <View style={styles.serviceBox}>
+              <View style={styles.serviceBoxItem}>
+                <View style={styles.contentText}>
+                  <View>
+                    <Text style={styles.headerText}>
+                      {dummyData.services[2].title}
+                    </Text>
+                    <Text style={styles.contentItemText}>
+                      {dummyData.services[2].description}
+                    </Text>
+                  </View>
+                  <Text style={styles.onlyPrice}>
+                    {dummyData.services[2].price}
+                  </Text>
                 </View>
-                <Text style={styles.onlyPrice}>{dummyData.services[2].price}</Text>
-              </View>
-              <View style={styles.serviceContainerImage}>
-                <Image source={dummyData.services[2].image}/>
+                <View style={styles.serviceContainerImage}>
+                  <Image source={dummyData.services[2].image} />
+                </View>
               </View>
             </View>
-          </View>
-          <View style={styles.serviceBox}>
-            <View style={styles.serviceBoxItem}>
-              <View style={styles.contentText}>
-                <View>
-                <Text style={styles.headerText}>{dummyData.services[3].title}</Text>
-                <Text style={styles.contentItemText}>{dummyData.services[3].description}</Text>
+            <View style={styles.serviceBox}>
+              <View style={styles.serviceBoxItem}>
+                <View style={styles.contentText}>
+                  <View>
+                    <Text style={styles.headerText}>
+                      {dummyData.services[3].title}
+                    </Text>
+                    <Text style={styles.contentItemText}>
+                      {dummyData.services[3].description}
+                    </Text>
+                  </View>
+                  <Text style={styles.onlyPrice}>
+                    {dummyData.services[3].price}
+                  </Text>
                 </View>
-                <Text style={styles.onlyPrice}>{dummyData.services[3].price}</Text>
-              </View>
-              <View style={styles.serviceContainerImage}>
-                <Image source={dummyData.services[3].image}/>
+                <View style={styles.serviceContainerImage}>
+                  <Image source={dummyData.services[3].image} />
+                </View>
               </View>
             </View>
-          </View>
           </ScrollView>
         </View>
       ) : null}

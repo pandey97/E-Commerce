@@ -2,9 +2,10 @@ import {View, Image, Text} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Home from './homeScreen';
 import Category from './categoryScreen';
-import Promo from './promoScreen';
+import Promo from './settingScreen';
 import Profile from './profileScreen';
 import { COLORS, SIZES, constants, icons, images } from '../../constants';
+import Setting from './settingScreen';
 
 const MyTab: React.FC = () => {
   const Tab = createBottomTabNavigator();
@@ -32,7 +33,7 @@ const MyTab: React.FC = () => {
           } else if (route.name === constants.bottom_tabs[1].label) {
             iconName = icons.globe
           } else if (route.name === constants.bottom_tabs[2].label) {
-            iconName = icons.gift
+            iconName = icons.setting
           } else if (route.name === constants.bottom_tabs[3].label) {
             iconName = icons.person
           }
@@ -53,7 +54,7 @@ const MyTab: React.FC = () => {
       >
       <Tab.Screen name="Home" component={Home} />
       <Tab.Screen name="Category" component={Category} />
-      <Tab.Screen name="Promo" component={Promo} />
+      <Tab.Screen name="Setting" component={Setting} />
       <Tab.Screen name="Profile" component={Profile} />
     </Tab.Navigator>
   );

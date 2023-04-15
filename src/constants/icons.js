@@ -16,6 +16,7 @@ const eye = require('../assets/icons/eye.png');
 const eye_off = require('../assets/icons/eye-off.png');
 const filter = require('../assets/icons/funnel_fill.png');
 const gift = require('../assets/icons/gift.png');
+const setting = require('../assets/icons/setting.png');
 const globe = require('../assets/icons/globe.png');
 const shoppingBag = require('../assets/icons/shopping_bag.png');
 const shoppingCart = require('../assets/icons/shopping-cart.png');
@@ -35,6 +36,11 @@ const google = require('../assets/icons/google.png');
 const twitter = require('../assets/icons/twitter.png');
 const linkedin = require('../assets/icons/linkedin.png');
 const video = require('../assets/icons/video.png');
+const internet = require('../assets/icons/internet.png')
+const checklist = require('../assets/icons/checklist.png')
+const promoCode = require('../assets/icons/promo-code.png')
+const widget = require('../assets/icons/widget.png')
+const next = require('../assets/icons/next.png')
 
 export default {
   arrow_down_fill,
@@ -55,6 +61,7 @@ export default {
   eye_off,
   filter,
   gift,
+  setting,
   globe,
   shoppingBag,
   shoppingCart,
@@ -74,4 +81,9 @@ export default {
   twitter,
   linkedin,
   video,
+  internet,
+  checklist,
+  promoCode,
+  widget,
+  next
 };

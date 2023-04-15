@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {View, Text, Image, TouchableOpacity} from 'react-native';
 import styles from '../styles/categoryScreenStyle';
-import {COLORS, constants, icons} from '../../constants';
+import {COLORS, constants, dummyData, icons, images} from '../../constants';
 
 const Category = () => {
   const [activeHeader, setActiveHeader] = useState(1);
@@ -62,7 +62,23 @@ const Category = () => {
       {activeHeader === 1 ? 
       <View style={styles.lowerContainer}>
         <View style={styles.box}>
-
+            <View>
+                <View>
+                    <Text>{constants.constantText.men}</Text>
+                    <Text>{constants.constantText.onetwok}</Text>
+                    <View>
+                        {/* <Image source={} />
+                        <Image source={} />
+                        <Image source={} /> */}
+                    </View>
+                </View>
+            </View>
+        </View>
+      </View> : null}
+      {activeHeader === 2 ?
+      <View>
+        <View>
+          <View></View>
         </View>
       </View> : null}
     </View>
