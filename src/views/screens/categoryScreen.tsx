@@ -9,7 +9,12 @@ const Category = () => {
   const handleHeaderClick = (button: any) => {
     setActiveHeader(button);
   };
-  const colors = [COLORS.primary, COLORS.support2, COLORS.success, COLORS.secondary];
+  const colors = [
+    COLORS.primary,
+    COLORS.support2,
+    COLORS.success,
+    COLORS.secondary,
+  ];
 
   return (
     <View style={styles.container}>
@@ -18,7 +23,7 @@ const Category = () => {
           <View style={styles.headerLeftItem}>
             <Image source={icons.logo} style={styles.logo} />
             <Text style={styles.categoryText}>
-              {constants.constantText.home}
+              {constants.constantText.category}
             </Text>
           </View>
           <View style={styles.headerRightItem}>
@@ -61,18 +66,38 @@ const Category = () => {
         </View>
       </View>
       {activeHeader === 1 ? (
-        <ScrollView style={styles.lowerContainer} showsVerticalScrollIndicator={false}>
-          {dummyData.categories.map((item,index) => <View style={[styles.box,{backgroundColor:dummyData.categories[index].bg_color}]}>
-            <View key={item.id}>
-              <Text style={[styles.genderText,{ color: colors[index]}]}>{dummyData.categories[index].name}</Text>
-              <Text style={styles.noOfProductText}>{dummyData.categories[index].qty}</Text>
+        <ScrollView
+          style={styles.lowerContainer}
+          showsVerticalScrollIndicator={false}>
+          {dummyData.categories.map((item, index) => (
+            <View
+              key={item.id}
+              style={[
+                styles.box,
+                {backgroundColor: dummyData.categories[index].bg_color},
+              ]}>
+              <Text style={[styles.genderText, {color: colors[index]}]}>
+                {dummyData.categories[index].name}
+              </Text>
+              <Text style={styles.noOfProductText}>
+                {dummyData.categories[index].qty}
+              </Text>
               <View style={styles.imageStyle}>
-                <Image source={dummyData.categories[index].image_1} style={styles.image}/>
-                <Image source={dummyData.categories[index].image_2} style={styles.image}/>
-                <Image source={dummyData.categories[index].image_3} style={styles.image}/>
+                <Image
+                  source={dummyData.categories[index].image_1}
+                  style={styles.image}
+                />
+                <Image
+                  source={dummyData.categories[index].image_2}
+                  style={styles.image}
+                />
+                <Image
+                  source={dummyData.categories[index].image_3}
+                  style={styles.image}
+                />
               </View>
             </View>
-          </View>)}
+          ))}
         </ScrollView>
       ) : null}
       {activeHeader === 2 ? (

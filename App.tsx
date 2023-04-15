@@ -31,7 +31,7 @@ const App = () => {
         <Stack.Screen name="SignUpScreen" component={SignUp} />
         <Stack.Screen name="ForgotPassword" component={ForgotPassword} />
         <Stack.Screen name="Verification" component={Verification} />
-        <Stack.Screen name="Home" component={MyTab} />
+        <Stack.Screen name="HomeScreen" component={MyTab} />
         <Stack.Screen name="SearchScreen" component={SearchScreen} />
       </Stack.Navigator>
     </NavigationContainer>

@@ -1,4 +1,4 @@
-import {COLORS} from '../constants';
+import { COLORS } from './theme';
 
 const banners = [
   {
@@ -83,7 +83,7 @@ const categories = [
     bg_color: COLORS.error20,
   },
   {
-    id: 2,
+    id: 3,
     name: 'Chair',
     qty: '1.2k Product',
     image_1: require('../assets/images/dummy/chair_01.png'),
@@ -92,7 +92,7 @@ const categories = [
     bg_color: COLORS.success20,
   },
   {
-    id: 3,
+    id: 4,
     name: 'Wardrobe',
     qty: '1.2k Product',
     image_1: require('../assets/images/dummy/wardrobe_01.png'),

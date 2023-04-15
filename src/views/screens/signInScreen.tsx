@@ -65,7 +65,7 @@ const SignIn: React.FC<props> = ({navigation}) => {
               </Text>
             </TouchableOpacity>
           </View>
-          <CommonButton text={constants.constantText.login} onPress={() => navigation.navigate('Home')}/>
+          <CommonButton text={constants.constantText.login} onPress={() => navigation.navigate('HomeScreen')}/>
         </View>
         <View style={styles.bottomText}>
           <Text style={styles.dontHaveAccountText}>

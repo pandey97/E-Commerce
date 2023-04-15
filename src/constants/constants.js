@@ -163,7 +163,8 @@ const constantText = {
   featured: 'Featured',
   upto: 'Up To 50% Off Holiday Bit',
   topKey: 'Top Key Search',
-  suggested: 'Suggested to you'
+  suggested: 'Suggested to you',
+  category:'Category'
 };
 
 export default {
