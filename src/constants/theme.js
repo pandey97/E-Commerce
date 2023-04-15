@@ -55,6 +55,7 @@ export const COLORS = {
   light: 'rgba(255, 255, 255, 1)',
   light80: 'rgba(255, 255, 255, 0.8)',
   light60: 'rgba(255, 255, 255, 0.6)',
+  light40: 'rgba(255, 255, 255, 0.4)',
   light20: 'rgba(255, 255, 255, 0.2)',
   light08: 'rgba(255, 255, 255, 0.08)',
 

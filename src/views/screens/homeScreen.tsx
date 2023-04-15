@@ -11,7 +11,11 @@ import styles from '../styles/homeScreenStyle';
 import {COLORS, constants, dummyData, icons, images} from '../../constants';
 import ProgressScreen from '../../components/progressBar';
 
-const Home = () => {
+interface prop {
+  navigation: any,
+}
+
+const Home: React.FC<prop> = ({navigation}) => {
   const [flexValue, setFlexValue] = useState(0.35);
   const [Value, setValue] = useState(-60);
   const [activeHeader, setActiveHeader] = useState(1);
@@ -31,6 +35,10 @@ const Home = () => {
       setValue(-60);
     }
     setActiveHeader(button);
+  };
+
+  const handleInputPress = () => {
+    navigation.navigate('SearchScreen');
   };
 
   return (
@@ -63,6 +71,7 @@ const Home = () => {
           <View>
             <TextInput
               placeholder={constants.constantText.searchProduct}
+              onPressIn={handleInputPress}
               style={styles.input}
             />
             <Image source={icons.search} style={styles.leftInputIcon} />

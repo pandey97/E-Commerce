@@ -8,6 +8,7 @@ import ForgotPassword from './src/views/screens/forgotPassword';
 import Verification from './src/views/screens/verificationScreen';
 import MyTab from './src/views/screens/tabRouter';
 import Orientation from 'react-native-orientation-locker';
+import SearchScreen from './src/views/screens/searchScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -31,6 +32,7 @@ const App = () => {
         <Stack.Screen name="ForgotPassword" component={ForgotPassword} />
         <Stack.Screen name="Verification" component={Verification} />
         <Stack.Screen name="Home" component={MyTab} />
+        <Stack.Screen name="SearchScreen" component={SearchScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -364,7 +364,7 @@ const flashSaleItems = [
   },
 ];
 
-const featuredProducts = [
+const   featuredProducts = [
   {
     id: 1,
     title: 'Up To 50% Off\nHoliday Bit',
@@ -376,19 +376,19 @@ const topSearch = [
   {
     id: 1,
     keyword: 'Man',
-    result: '35k',
+    result: '35k product',
     image: require('../assets/images/dummy/top_01.png'),
   },
   {
     id: 2,
     keyword: 'Women',
-    result: '35k',
+    result: '35k product',
     image: require('../assets/images/dummy/top_02.png'),
   },
   {
     id: 3,
     keyword: 'Jeans',
-    result: '45k',
+    result: '45k product',
     image: require('../assets/images/dummy/top_03.png'),
   },
 ];

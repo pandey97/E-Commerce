@@ -159,7 +159,11 @@ const constantText = {
   setupWidth: 'Setup Width',
   personalCommunication: 'Personal Communication',
   subLnguage: 'Sub Language',
-  sound: 'Sound'
+  sound: 'Sound',
+  featured: 'Featured',
+  upto: 'Up To 50% Off Holiday Bit',
+  topKey: 'Top Key Search',
+  suggested: 'Suggested to you'
 };
 
 export default {
