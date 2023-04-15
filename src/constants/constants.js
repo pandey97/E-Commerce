@@ -104,6 +104,7 @@ const constantText = {
   newAccount: 'Create New Account',
   loginWith: 'OR login with',
   forgotPassword: 'Forgot Password',
+  verification: 'Verification',
   continuePhoneno: 'Continue using phone number.',
   OTPsent: 'Enter OTP sent to your phone.',
   sendCode: 'Send Verification Code',

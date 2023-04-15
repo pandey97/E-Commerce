@@ -30,7 +30,7 @@ const Verification: React.FC<props> = ({navigation}) => {
             <Image source={icons.arrow_left} style={styles.leftArrow} />
           </TouchableOpacity>
           <Text style={styles.headerText}>
-            {constants.constantText.forgotPassword}
+            {constants.constantText.verification}
           </Text>
         </View>
         <View style={styles.middleContainer}>
