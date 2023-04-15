@@ -6,7 +6,11 @@ import {COLORS, SIZES, constants} from '../../constants';
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
-const Walkthrough: React.FC = () => {
+interface navigation {
+  navigation:any
+}
+
+const Walkthrough: React.FC<navigation> = ({navigation}) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleScroll = (event: any) => {
@@ -44,11 +48,11 @@ const Walkthrough: React.FC = () => {
         </View>
         <View
           style={styles.buttonContainer}>
-          <TouchableOpacity
+          <TouchableOpacity onPress={() => navigation.navigate("SignUpScreen")}
             style={styles.leftButton}>
             <Text style={{color:COLORS.primary}}>{constants.constantText.joinnow}</Text>
           </TouchableOpacity>
-          <TouchableOpacity
+          <TouchableOpacity onPress={() => navigation.navigate("SignInScreen")}
             style={styles.rightButton}>
             <Text style={{color:COLORS.light}}>{constants.constantText.login}</Text>
           </TouchableOpacity>

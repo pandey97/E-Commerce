@@ -164,7 +164,7 @@ const constantText = {
   upto: 'Up To 50% Off Holiday Bit',
   topKey: 'Top Key Search',
   suggested: 'Suggested to you',
-  category:'Category'
+  category:'Category',
   joinnow: 'Join Now',
   login: 'Log In'
 };

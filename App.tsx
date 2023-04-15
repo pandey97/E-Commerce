@@ -7,20 +7,12 @@ import SignIn from './src/views/screens/signInScreen';
 import ForgotPassword from './src/views/screens/forgotPassword';
 import Verification from './src/views/screens/verificationScreen';
 import MyTab from './src/views/screens/tabRouter';
-import Orientation from 'react-native-orientation-locker';
 import SearchScreen from './src/views/screens/searchScreen';
 import WalkThrough from './src/views/screens/walkthrough';
 
 const Stack = createNativeStackNavigator();
 
 const App = () => {
-
-  useEffect(() => {
-    Orientation.lockToPortrait();
-    return () => {
-      Orientation.unlockAllOrientations();
-    };
-  }, []);
 
   return (
     <NavigationContainer>
