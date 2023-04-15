@@ -134,7 +134,7 @@ const constantText = {
   men: 'Men',
   women: 'Women',
   technology: 'Technology',
-  onetwok: '1.2k',
+  onetwok: '1.2k products',
   profile: 'Profile',
   sudhanshu: 'BySudhanshu',
   follower: '30k followers',

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {View, Text, Image, TouchableOpacity} from 'react-native';
+import {View, Text, Image, TouchableOpacity, ScrollView} from 'react-native';
 import styles from '../styles/categoryScreenStyle';
 import {COLORS, constants, dummyData, icons, images} from '../../constants';
 
@@ -9,6 +9,7 @@ const Category = () => {
   const handleHeaderClick = (button: any) => {
     setActiveHeader(button);
   };
+  const colors = [COLORS.primary, COLORS.support2, COLORS.success, COLORS.secondary];
 
   return (
     <View style={styles.container}>
@@ -59,28 +60,28 @@ const Category = () => {
           </TouchableOpacity>
         </View>
       </View>
-      {activeHeader === 1 ? 
-      <View style={styles.lowerContainer}>
-        <View style={styles.box}>
-            <View>
-                <View>
-                    <Text>{constants.constantText.men}</Text>
-                    <Text>{constants.constantText.onetwok}</Text>
-                    <View>
-                        {/* <Image source={} />
-                        <Image source={} />
-                        <Image source={} /> */}
-                    </View>
-                </View>
+      {activeHeader === 1 ? (
+        <ScrollView style={styles.lowerContainer} showsVerticalScrollIndicator={false}>
+          {dummyData.categories.map((item,index) => <View style={[styles.box,{backgroundColor:dummyData.categories[index].bg_color}]}>
+            <View key={item.id}>
+              <Text style={[styles.genderText,{ color: colors[index]}]}>{dummyData.categories[index].name}</Text>
+              <Text style={styles.noOfProductText}>{dummyData.categories[index].qty}</Text>
+              <View style={styles.imageStyle}>
+                <Image source={dummyData.categories[index].image_1} style={styles.image}/>
+                <Image source={dummyData.categories[index].image_2} style={styles.image}/>
+                <Image source={dummyData.categories[index].image_3} style={styles.image}/>
+              </View>
             </View>
-        </View>
-      </View> : null}
-      {activeHeader === 2 ?
-      <View>
+          </View>)}
+        </ScrollView>
+      ) : null}
+      {activeHeader === 2 ? (
         <View>
-          <View></View>
+          <View>
+            <View></View>
+          </View>
         </View>
-      </View> : null}
+      ) : null}
     </View>
   );
 };
